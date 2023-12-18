@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Chadsite
+title: chadsite
 email: netricate@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   just stuff for me to post for public use
@@ -29,6 +29,14 @@ github_username:  chadwick-
 
 # Build settings
 remote_theme: b2a3e8/jekyll-theme-console
+listen_for_clients_preferred_style: true 
+header_pages:
+  - index.md
+  - about.md
+
+style: hacker # dark (default), light or hacker
+footer: 'this is basically scratch paper for chad'
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
